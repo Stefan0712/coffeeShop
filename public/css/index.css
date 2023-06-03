@@ -6,48 +6,7 @@
 body{
     background-color: #fefbf3;
 }
-.nav{
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    width: 100vw;
-    color: white;
-}
-.nav-links{
-    width: 40%;    
-    display: flex;   
-    height: 100%;
-    margin-right: 50px;
-}
-.nav-links a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 25px;
-    padding-left: 25px;
-    transition: all 0.2s;
-}
-.active{
-    color: #f07f0e !important;
-    
-}
 
-.nav-links a:hover{
-    background-color: rgba(211, 211, 211, 0.199);
-    transition: all 0.2s;
-}
-.logo{
-    font-weight: bolder;
-    font-size: 2rem;
-    margin-left: 100px;
-}
 .hero{
     height: 100vh;
     width: 100vw;
@@ -398,48 +357,10 @@ body{
   }
 
 
-.hide{
-  display: none;
-}
-.nav-icon{
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  right: 30px;
-  top: 25px;
-  background-image: url('../images/menu.png');
-  background-position: center;
-  background-size: contain;
-  filter: invert(100%);
-}
+
 
   @media only screen and (max-width: 1100px) {
-    .nav{
-      position: fixed;
-      background-color: #14130f;
-    }
-    .nav-links{
-      display: flex;
-      flex-direction: column;
-      height: 500px;
-      width: 100vw;
-      background-color: #14130f;
-      position: absolute;
-      left: 0px;
-      bottom: -500px;
-      transform: scaleY(0);
-      transform-origin: top;
-      transition: all 0.3s;
-
-    }
-    .show{
-      
-      transform: scaleY(1);
-      transition: all 0.3s;
-    }
-    .logo{
-      margin-left: 25px;
-    }
+    
     .hero{
       width: 100vw;
       height: 100vh;
