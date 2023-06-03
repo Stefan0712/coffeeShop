@@ -20,4 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
   
     setInterval(showNextTestimonial, 5000); // Change the interval duration as desired
   });
+
+
+
+  const toggleMenu = () =>{
+    const menu = document.querySelector('.nav-links')
+    const icon = document.querySelector('.nav-icon')
+    icon.style.backgroundImage = '../images/close.png';
+    menu.classList.toggle('show')
+  }
   
