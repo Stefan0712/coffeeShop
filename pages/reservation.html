@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a table</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/reservation.css">
+    <link rel="stylesheet" href="../public/css/nav.css">
+    <script src="../public/js/index.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">CoffeeShop</div>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../pages/about.html">About</a>
+            <a href="../pages/menu.html">Menu</a>
+            <a class="active" href="./reservation.html">Reservations</a>
+            <a href="../index.html#contact">Contact</a>
+        </div>
+        <div class="nav-icon" onClick="toggleMenu()"></div>
+    </div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Make a reservation</h1>
+        </div>
+    </div>
+    <div class="form-container">
+        <h1>Book a table</h1>
+        <div class="form">
+            <div>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Phone">
+            </div>
+            <div>
+                <input type="text" placeholder="Email">
+                <input type="number" placeholder="Seats">
+            </div>
+            <div>
+                <input type="text" placeholder="Time">
+                <input type="text" placeholder="Date">
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10">Message</textarea>
+            <button>Book Table</button>
+        </div>
+    </div>
+    <div class="program-container">
+            <div class="column">
+                <img class="rez-img" src="../public/images/reservation-img.jpg" alt="">
+            </div>
+            <div class="column">
+                <h1>Open Hours</h1>
+                <div class="container">
+                    <div class="day">Mon</div>
+                    <div class="line"></div>
+                    <div class="hours">9 AM - 11 PM</div>
+                </div>
+                <div class="container">
+                    <div class="day">Tue</div>
+                    <div class="line"></div>
+                    <div class="hours">9 AM - 11 PM</div>
+                </div>
+                <div class="container">
+                    <div class="day">Wed</div>
+                    <div class="line"></div>
+                    <div class="hours">9 AM - 11 PM</div>
+                </div>
+                <div class="container">
+                    <div class="day">Thu</div>
+                    <div class="line"></div>
+                    <div class="hours">9 AM - 11 PM</div>
+                </div>
+                <div class="container">
+                    <div class="day">Fri</div>
+                    <div class="line"></div>
+                    <div class="hours">9 AM - 11 PM</div>
+                </div>
+                <div class="container">
+                    <div class="day">Sat</div>
+                    <div class="line"></div>
+                    <div class="hours">9 AM - 10 PM</div>
+                </div>
+                <div class="container">
+                    <div class="day">Sun</div>
+                    <div class="line"></div>
+                    <div class="hours">9 AM - 10 PM</div>
+                </div>
+            </div>
+            <div class="column table-rez">
+                <h1>Table Reservation</h1>
+                <div>
+                    <img class="contact-img" src="../public/images/location.png" alt="">
+                    <p>Real Adress 140, Tokyo</p>
+                </div>
+                <div>
+                    <img class="contact-img" src="../public/images/phone.png" alt="">
+                    <p>1234 567 890</p>
+                </div>
+                <div>
+                    <img class="contact-img" src="../public/images/mail.png" alt="">
+                    <p>short@mail.com</p>
+                </div>
+                
+                
+                
+                <button>Book Now</button>
+            </div>
+    </div>
+    <div class="footer">
+        Mock CoffeeShop Website © 2023
+    </div>
+</body>
+</html>
