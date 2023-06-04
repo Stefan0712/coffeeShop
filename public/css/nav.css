@@ -58,6 +58,7 @@
     .nav{
         position: fixed;
         background-color: #14130f;
+        z-index: 10;
       }
       .nav-links{
         display: flex;
