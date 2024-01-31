@@ -81,6 +81,7 @@ body{
 }
 .form button{
     height: 50px;
+    font-weight: bold;
     font-size: 1.3rem;
     background-color: #f07f0e;
     color: white;
@@ -91,14 +92,14 @@ body{
     width: 60%;
     min-height: 300px;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 100px;
     margin-top: 100px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .program-container .column{
-    width: 33%;
+    width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -142,6 +143,12 @@ body{
     font-size: 1.2rem;
     color: #fdecb4;
     align-items: start !important;
+    display: flex;
+    
+}
+.table-row{
+    display: flex;
+    align-items: center;
 }
 .table-rez div{
     display: flex;
@@ -149,7 +156,7 @@ body{
 }
 .table-rez button{
     width: 130px;
-    height: 30px;
+    height: 40px;
     background-color: #f07f0e;
     color: #fdecb4;
     border: 1px solid #fdecb4;
@@ -165,7 +172,7 @@ body{
 .contact-img{
     width: 30px;
     height: 30px;
-    
+    filter: invert(100%);
 }
 .footer{
     width: 100%;
